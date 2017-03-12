@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ DegreeToRadian - Debug ]----------"
-	@cd "DegreeToRadian" && "$(MAKE)" -f  "DegreeToRadian.mk"
+	@echo "----------Building project:[ GradeAverageCalculator - Debug ]----------"
+	@cd "GradeAverageCalculator" && "$(MAKE)" -f  "GradeAverageCalculator.mk"
 clean:
-	@echo "----------Cleaning project:[ DegreeToRadian - Debug ]----------"
-	@cd "DegreeToRadian" && "$(MAKE)" -f  "DegreeToRadian.mk" clean
+	@echo "----------Cleaning project:[ GradeAverageCalculator - Debug ]----------"
+	@cd "GradeAverageCalculator" && "$(MAKE)" -f  "GradeAverageCalculator.mk" clean

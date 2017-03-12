@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="C" Database="" Version="10.0.0">
-  <Project Name="DegreeToRadian" Path="DegreeToRadian/DegreeToRadian.project" Active="Yes"/>
+  <Project Name="DegreeToRadian" Path="DegreeToRadian/DegreeToRadian.project" Active="No"/>
+  <Project Name="TimeEquivalence" Path="TimeEquivalence/TimeEquivalence.project" Active="No"/>
+  <Project Name="TimeIncrement" Path="TimeIncrement/TimeIncrement.project" Active="No"/>
+  <Project Name="QuadraticSolver" Path="QuadraticSolver/QuadraticSolver.project" Active="No"/>
+  <Project Name="GradeAverageCalculator" Path="GradeAverageCalculator/GradeAverageCalculator.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="DegreeToRadian" ConfigName="Debug"/>
+      <Project Name="TimeEquivalence" ConfigName="Debug"/>
+      <Project Name="TimeIncrement" ConfigName="Debug"/>
+      <Project Name="QuadraticSolver" ConfigName="Debug"/>
+      <Project Name="GradeAverageCalculator" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="DegreeToRadian" ConfigName="Release"/>
+      <Project Name="TimeEquivalence" ConfigName="Release"/>
+      <Project Name="TimeIncrement" ConfigName="Release"/>
+      <Project Name="QuadraticSolver" ConfigName="Release"/>
+      <Project Name="GradeAverageCalculator" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
