@@ -4,7 +4,11 @@
   <Project Name="TimeEquivalence" Path="TimeEquivalence/TimeEquivalence.project" Active="No"/>
   <Project Name="TimeIncrement" Path="TimeIncrement/TimeIncrement.project" Active="No"/>
   <Project Name="QuadraticSolver" Path="QuadraticSolver/QuadraticSolver.project" Active="No"/>
-  <Project Name="GradeAverageCalculator" Path="GradeAverageCalculator/GradeAverageCalculator.project" Active="Yes"/>
+  <Project Name="GradeAverageCalculator" Path="GradeAverageCalculator/GradeAverageCalculator.project" Active="No"/>
+  <Project Name="PowerTable" Path="PowerTable/PowerTable.project" Active="No"/>
+  <Project Name="FactorialTable" Path="FactorialTable/FactorialTable.project" Active="No"/>
+  <Project Name="DigitSum" Path="DigitSum/DigitSum.project" Active="No"/>
+  <Project Name="DigitLexical" Path="DigitLexical/DigitLexical.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -13,6 +17,10 @@
       <Project Name="TimeIncrement" ConfigName="Debug"/>
       <Project Name="QuadraticSolver" ConfigName="Debug"/>
       <Project Name="GradeAverageCalculator" ConfigName="Debug"/>
+      <Project Name="PowerTable" ConfigName="Debug"/>
+      <Project Name="FactorialTable" ConfigName="Debug"/>
+      <Project Name="DigitSum" ConfigName="Debug"/>
+      <Project Name="DigitLexical" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -21,6 +29,10 @@
       <Project Name="TimeIncrement" ConfigName="Release"/>
       <Project Name="QuadraticSolver" ConfigName="Release"/>
       <Project Name="GradeAverageCalculator" ConfigName="Release"/>
+      <Project Name="PowerTable" ConfigName="Release"/>
+      <Project Name="FactorialTable" ConfigName="Release"/>
+      <Project Name="DigitSum" ConfigName="Release"/>
+      <Project Name="DigitLexical" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
