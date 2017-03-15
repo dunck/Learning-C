@@ -8,7 +8,8 @@
   <Project Name="PowerTable" Path="PowerTable/PowerTable.project" Active="No"/>
   <Project Name="FactorialTable" Path="FactorialTable/FactorialTable.project" Active="No"/>
   <Project Name="DigitSum" Path="DigitSum/DigitSum.project" Active="No"/>
-  <Project Name="DigitLexical" Path="DigitLexical/DigitLexical.project" Active="Yes"/>
+  <Project Name="DigitLexical" Path="DigitLexical/DigitLexical.project" Active="No"/>
+  <Project Name="FindLargest" Path="FindLargest/FindLargest.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -21,8 +22,9 @@
       <Project Name="FactorialTable" ConfigName="Debug"/>
       <Project Name="DigitSum" ConfigName="Debug"/>
       <Project Name="DigitLexical" ConfigName="Debug"/>
+      <Project Name="FindLargest" ConfigName="Debug"/>
     </WorkspaceConfiguration>
-    <WorkspaceConfiguration Name="Release" Selected="yes">
+    <WorkspaceConfiguration Name="Release" Selected="no">
       <Environment/>
       <Project Name="DegreeToRadian" ConfigName="Release"/>
       <Project Name="TimeEquivalence" ConfigName="Release"/>
@@ -33,6 +35,7 @@
       <Project Name="FactorialTable" ConfigName="Release"/>
       <Project Name="DigitSum" ConfigName="Release"/>
       <Project Name="DigitLexical" ConfigName="Release"/>
+      <Project Name="FindLargest" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

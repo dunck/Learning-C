@@ -5,57 +5,36 @@
  * 13/03/2017
 */
 
+#define ASCII_TO_INT(x)         (x - 48)
+#define INT_TO_CHAR_ARRAY(x, c) (sprintf(c, "%d", x))
+#define SET_POSITIVE(x)         (x = fabs(x))
+
 #include <stdio.h>
 #include <math.h>
+#include "functions.h"
 
-char* lexicalDigit(int digit)
-{
-    switch(digit) {
-    case(0):
-        return "zero";
-    case(1):
-        return "one";
-    case(2):
-        return "two";
-    case(3):
-        return "three";
-    case(4):
-        return "four";
-    case(5):
-        return "five";
-    case(6):
-        return "six";
-    case(7):
-        return "seven";
-    case(8):
-        return "eight";
-    case(9):
-        return "nine";
-    default:
-        return "\0";
-    }
-}
-
-int main(int argc, char** argv)
+int main()
 {
     int number = 0;
     printf("please enter a number: ");
     scanf("%d", &number);
-    if(number < 0) {
-        return 0;
-    }
 
-    int numberLength = log10(number) + 1;
-    printf("your number is %d digits long.", numberLength);
-    
-    int currentDigit = numberLength;
-    
-    
     printf("you entered these digits: ");
-    while(currentDigit != 0) {
-        printf("%d ", currentDigit);
-        currentDigit--;
+    // if the number is negative, set it positive
+    if(number < 0) {
+        printf("negative ");
+        SET_POSITIVE(number);
     }
+    // store the number of digits in var numberLength
+    int numberLength = log10(number) + 1;
+    // fill var digits with the digits in number
+    char digits[numberLength];
+    INT_TO_CHAR_ARRAY(number, digits);
+    // loop through var digits and print the digit's lexical value
+    for(int i = 0; i < numberLength; i++) {
+        printf("%s ", lexicalDigit(ASCII_TO_INT(digits[i])));
+    }
+    printf("\n");
 
     return 0;
 }
