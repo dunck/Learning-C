@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ FindLargest - Debug ]----------"
-	@cd "FindLargest" && "$(MAKE)" -f  "FindLargest.mk"
+	@echo "----------Building project:[ TriSort - Debug ]----------"
+	@cd "TriSort" && "$(MAKE)" -f  "TriSort.mk"
 clean:
-	@echo "----------Cleaning project:[ FindLargest - Debug ]----------"
-	@cd "FindLargest" && "$(MAKE)" -f  "FindLargest.mk" clean
+	@echo "----------Cleaning project:[ TriSort - Debug ]----------"
+	@cd "TriSort" && "$(MAKE)" -f  "TriSort.mk" clean

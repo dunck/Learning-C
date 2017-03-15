@@ -2,7 +2,7 @@
  * 1806ict: workshop 3 question 5
  * ------------------------------
  * duncan kirkland
- * 13/03/2017
+ * 15/03/2017
  * 
  * this method took a lot of research
  * it uses pointers to iterate over a raw input

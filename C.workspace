@@ -9,7 +9,9 @@
   <Project Name="FactorialTable" Path="FactorialTable/FactorialTable.project" Active="No"/>
   <Project Name="DigitSum" Path="DigitSum/DigitSum.project" Active="No"/>
   <Project Name="DigitLexical" Path="DigitLexical/DigitLexical.project" Active="No"/>
-  <Project Name="FindLargest" Path="FindLargest/FindLargest.project" Active="Yes"/>
+  <Project Name="FindLargest" Path="FindLargest/FindLargest.project" Active="No"/>
+  <Project Name="Find2Largest" Path="Find2Largest/Find2Largest.project" Active="No"/>
+  <Project Name="TriSort" Path="TriSort/TriSort.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -23,8 +25,10 @@
       <Project Name="DigitSum" ConfigName="Debug"/>
       <Project Name="DigitLexical" ConfigName="Debug"/>
       <Project Name="FindLargest" ConfigName="Debug"/>
+      <Project Name="Find2Largest" ConfigName="Debug"/>
+      <Project Name="TriSort" ConfigName="Debug"/>
     </WorkspaceConfiguration>
-    <WorkspaceConfiguration Name="Release" Selected="no">
+    <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="DegreeToRadian" ConfigName="Release"/>
       <Project Name="TimeEquivalence" ConfigName="Release"/>
@@ -36,6 +40,8 @@
       <Project Name="DigitSum" ConfigName="Release"/>
       <Project Name="DigitLexical" ConfigName="Release"/>
       <Project Name="FindLargest" ConfigName="Release"/>
+      <Project Name="Find2Largest" ConfigName="Release"/>
+      <Project Name="TriSort" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
