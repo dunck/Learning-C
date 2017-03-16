@@ -5,14 +5,14 @@
 ## Debug
 ProjectName            :=TriSort
 ConfigurationName      :=Debug
-WorkspacePath          :=C:/Users/Owner/Desktop/Documents/C
-ProjectPath            :=C:/Users/Owner/Desktop/Documents/C/TriSort
+WorkspacePath          :=C:/Users/Duncan/Documents/GitHub/Learning-C
+ProjectPath            :=C:/Users/Duncan/Documents/GitHub/Learning-C/TriSort
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
-User                   :=Owner
+User                   :=Duncan
 Date                   :=16/03/2017
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/TDM-GCC-64/bin/g++.exe
@@ -94,7 +94,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/Users/Owner/Desktop/Documents/C/TriSort/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "C:/Users/Duncan/Documents/GitHub/Learning-C/TriSort/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
 

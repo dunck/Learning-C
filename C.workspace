@@ -8,10 +8,10 @@
   <Project Name="PowerTable" Path="PowerTable/PowerTable.project" Active="No"/>
   <Project Name="FactorialTable" Path="FactorialTable/FactorialTable.project" Active="No"/>
   <Project Name="DigitSum" Path="DigitSum/DigitSum.project" Active="No"/>
-  <Project Name="DigitLexical" Path="DigitLexical/DigitLexical.project" Active="No"/>
+  <Project Name="DigitLexical" Path="DigitLexical/DigitLexical.project" Active="Yes"/>
   <Project Name="FindLargest" Path="FindLargest/FindLargest.project" Active="No"/>
   <Project Name="Find2Largest" Path="Find2Largest/Find2Largest.project" Active="No"/>
-  <Project Name="TriSort" Path="TriSort/TriSort.project" Active="Yes"/>
+  <Project Name="TriSort" Path="TriSort/TriSort.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>

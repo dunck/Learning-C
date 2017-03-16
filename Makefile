@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ TriSort - Debug ]----------"
-	@cd "TriSort" && "$(MAKE)" -f  "TriSort.mk"
+	@echo "----------Building project:[ DigitLexical - Debug ]----------"
+	@cd "DigitLexical" && "$(MAKE)" -f  "DigitLexical.mk"
 clean:
-	@echo "----------Cleaning project:[ TriSort - Debug ]----------"
-	@cd "TriSort" && "$(MAKE)" -f  "TriSort.mk" clean
+	@echo "----------Cleaning project:[ DigitLexical - Debug ]----------"
+	@cd "DigitLexical" && "$(MAKE)" -f  "DigitLexical.mk" clean
