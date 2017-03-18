@@ -11,7 +11,11 @@
   <Project Name="DigitLexical" Path="DigitLexical/DigitLexical.project" Active="No"/>
   <Project Name="FindLargest" Path="FindLargest/FindLargest.project" Active="No"/>
   <Project Name="Find2Largest" Path="Find2Largest/Find2Largest.project" Active="No"/>
-  <Project Name="TriSort" Path="TriSort/TriSort.project" Active="Yes"/>
+  <Project Name="TriSort" Path="TriSort/TriSort.project" Active="No"/>
+  <Project Name="3-8-DigitRecurrence" Path="DigitRecurrence/DigitRecurrence.project" Active="No"/>
+  <Project Name="3-9-PalindromeCheck" Path="3-9-PalindromeCheck/3-9-PalindromeCheck.project" Active="No"/>
+  <Project Name="3-10-DecimalToBinary" Path="3-10-DecimalToBinary/3-10-DecimalToBinary.project" Active="No"/>
+  <Project Name="3-11-PiTolerance" Path="3-11-PiTolerance/3-11-PiTolerance.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -27,6 +31,10 @@
       <Project Name="FindLargest" ConfigName="Debug"/>
       <Project Name="Find2Largest" ConfigName="Debug"/>
       <Project Name="TriSort" ConfigName="Debug"/>
+      <Project Name="3-8-DigitRecurrence" ConfigName="Debug"/>
+      <Project Name="3-9-PalindromeCheck" ConfigName="Debug"/>
+      <Project Name="3-10-DecimalToBinary" ConfigName="Debug"/>
+      <Project Name="3-11-PiTolerance" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -42,6 +50,10 @@
       <Project Name="FindLargest" ConfigName="Release"/>
       <Project Name="Find2Largest" ConfigName="Release"/>
       <Project Name="TriSort" ConfigName="Release"/>
+      <Project Name="3-8-DigitRecurrence" ConfigName="Release"/>
+      <Project Name="3-9-PalindromeCheck" ConfigName="Release"/>
+      <Project Name="3-10-DecimalToBinary" ConfigName="Release"/>
+      <Project Name="3-11-PiTolerance" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
