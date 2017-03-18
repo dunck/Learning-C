@@ -2,7 +2,7 @@
  * 1806ict: workshop 3 question 9
  * ------------------------------
  * duncan kirkland
- * 13/03/2017
+ * 18/03/2017
 */
 
 #define ASCII_TO_INT(x)         (x - 48)

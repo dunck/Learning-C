@@ -2,7 +2,7 @@
  * 1806ict: workshop 3 question 11
  * ------------------------------
  * duncan kirkland
- * 13/03/2017
+ * 18/03/2017
 */
 
 #define TOLERANCE 0.0000001

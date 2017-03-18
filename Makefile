@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ 3-11-PiTolerance - Debug ]----------"
-	@cd "3-11-PiTolerance" && "$(MAKE)" -f  "3-11-PiTolerance.mk"
+	@echo "----------Building project:[ 4-7-ComputerGuessNumber - Debug ]----------"
+	@cd "4-7-ComputerGuessNumber" && "$(MAKE)" -f  "4-7-ComputerGuessNumber.mk"
 clean:
-	@echo "----------Cleaning project:[ 3-11-PiTolerance - Debug ]----------"
-	@cd "3-11-PiTolerance" && "$(MAKE)" -f  "3-11-PiTolerance.mk" clean
+	@echo "----------Cleaning project:[ 4-7-ComputerGuessNumber - Debug ]----------"
+	@cd "4-7-ComputerGuessNumber" && "$(MAKE)" -f  "4-7-ComputerGuessNumber.mk" clean

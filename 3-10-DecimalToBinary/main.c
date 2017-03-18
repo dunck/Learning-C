@@ -2,7 +2,7 @@
  * 1806ict: workshop 3 question 10
  * ------------------------------
  * duncan kirkland
- * 13/03/2017
+ * 18/03/2017
 */
 
 #define FROM_ASCII_TO_INT -48
