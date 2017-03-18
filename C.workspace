@@ -8,10 +8,11 @@
   <Project Name="PowerTable" Path="PowerTable/PowerTable.project" Active="No"/>
   <Project Name="FactorialTable" Path="FactorialTable/FactorialTable.project" Active="No"/>
   <Project Name="DigitSum" Path="DigitSum/DigitSum.project" Active="No"/>
-  <Project Name="DigitLexical" Path="DigitLexical/DigitLexical.project" Active="No"/>
+  <Project Name="DigitLexical" Path="DigitLexical/DigitLexical.project" Active="Yes"/>
   <Project Name="FindLargest" Path="FindLargest/FindLargest.project" Active="No"/>
   <Project Name="Find2Largest" Path="Find2Largest/Find2Largest.project" Active="No"/>
   <Project Name="TriSort" Path="TriSort/TriSort.project" Active="No"/>
+<<<<<<< HEAD
   <Project Name="3-8-DigitRecurrence" Path="DigitRecurrence/DigitRecurrence.project" Active="No"/>
   <Project Name="3-9-PalindromeCheck" Path="3-9-PalindromeCheck/3-9-PalindromeCheck.project" Active="No"/>
   <Project Name="3-10-DecimalToBinary" Path="3-10-DecimalToBinary/3-10-DecimalToBinary.project" Active="No"/>
@@ -23,6 +24,8 @@
   <Project Name="4-5-CoinFlip" Path="4-5-CoinFlip/4-5-CoinFlip.project" Active="No"/>
   <Project Name="4-6-NumberGuess" Path="4-6-NumberGuess/4-6-NumberGuess.project" Active="No"/>
   <Project Name="4-7-ComputerGuessNumber" Path="4-7-ComputerGuessNumber/4-7-ComputerGuessNumber.project" Active="Yes"/>
+=======
+>>>>>>> origin/master
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
