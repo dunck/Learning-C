@@ -1,50 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="C" Database="" Version="10.0.0">
-  <Project Name="DegreeToRadian" Path="DegreeToRadian/DegreeToRadian.project" Active="No"/>
-  <Project Name="TimeEquivalence" Path="TimeEquivalence/TimeEquivalence.project" Active="No"/>
-  <Project Name="TimeIncrement" Path="TimeIncrement/TimeIncrement.project" Active="No"/>
-  <Project Name="QuadraticSolver" Path="QuadraticSolver/QuadraticSolver.project" Active="No"/>
-  <Project Name="GradeAverageCalculator" Path="GradeAverageCalculator/GradeAverageCalculator.project" Active="No"/>
-  <Project Name="PowerTable" Path="PowerTable/PowerTable.project" Active="No"/>
-  <Project Name="FactorialTable" Path="FactorialTable/FactorialTable.project" Active="No"/>
-  <Project Name="DigitSum" Path="DigitSum/DigitSum.project" Active="No"/>
-  <Project Name="DigitLexical" Path="DigitLexical/DigitLexical.project" Active="Yes"/>
-  <Project Name="FindLargest" Path="FindLargest/FindLargest.project" Active="No"/>
-  <Project Name="Find2Largest" Path="Find2Largest/Find2Largest.project" Active="No"/>
-  <Project Name="TriSort" Path="TriSort/TriSort.project" Active="No"/>
-<<<<<<< HEAD
-  <Project Name="3-8-DigitRecurrence" Path="DigitRecurrence/DigitRecurrence.project" Active="No"/>
-  <Project Name="3-9-PalindromeCheck" Path="3-9-PalindromeCheck/3-9-PalindromeCheck.project" Active="No"/>
-  <Project Name="3-10-DecimalToBinary" Path="3-10-DecimalToBinary/3-10-DecimalToBinary.project" Active="No"/>
-  <Project Name="3-11-PiTolerance" Path="3-11-PiTolerance/3-11-PiTolerance.project" Active="No"/>
   <Project Name="4-1-GCD" Path="4-1-GCD/4-1-GCD.project" Active="No"/>
   <Project Name="4-2-LCM" Path="4-2-LCM/4-2-LCM.project" Active="No"/>
   <Project Name="4-3-PrimeTest" Path="4-3-PrimeTest/4-3-PrimeTest.project" Active="No"/>
   <Project Name="4-4-PerfectNumberTest" Path="4-4-PerfectNumberTest/4-4-PerfectNumberTest.project" Active="No"/>
   <Project Name="4-5-CoinFlip" Path="4-5-CoinFlip/4-5-CoinFlip.project" Active="No"/>
   <Project Name="4-6-NumberGuess" Path="4-6-NumberGuess/4-6-NumberGuess.project" Active="No"/>
-  <Project Name="4-7-ComputerGuessNumber" Path="4-7-ComputerGuessNumber/4-7-ComputerGuessNumber.project" Active="Yes"/>
-=======
->>>>>>> origin/master
+  <Project Name="4-7-ComputerGuessNumber" Path="4-7-ComputerGuessNumber/4-7-ComputerGuessNumber.project" Active="No"/>
+  <Project Name="4-8-GoldbachConjecture" Path="4-8-GoldbachConjecture/4-8-GoldbachConjecture.project" Active="No"/>
+  <Project Name="4-9-FibonacciFinder" Path="4-9-FibonacciFinder/4-9-FibonacciFinder.project" Active="No"/>
+  <Project Name="4-10-DecimalToBinary" Path="4-10-DecimalToBinary/4-10-DecimalToBinary.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
-      <Project Name="DegreeToRadian" ConfigName="Debug"/>
-      <Project Name="TimeEquivalence" ConfigName="Debug"/>
-      <Project Name="TimeIncrement" ConfigName="Debug"/>
-      <Project Name="QuadraticSolver" ConfigName="Debug"/>
-      <Project Name="GradeAverageCalculator" ConfigName="Debug"/>
-      <Project Name="PowerTable" ConfigName="Debug"/>
-      <Project Name="FactorialTable" ConfigName="Debug"/>
-      <Project Name="DigitSum" ConfigName="Debug"/>
-      <Project Name="DigitLexical" ConfigName="Debug"/>
-      <Project Name="FindLargest" ConfigName="Debug"/>
-      <Project Name="Find2Largest" ConfigName="Debug"/>
-      <Project Name="TriSort" ConfigName="Debug"/>
-      <Project Name="3-8-DigitRecurrence" ConfigName="Debug"/>
-      <Project Name="3-9-PalindromeCheck" ConfigName="Debug"/>
-      <Project Name="3-10-DecimalToBinary" ConfigName="Debug"/>
-      <Project Name="3-11-PiTolerance" ConfigName="Debug"/>
       <Project Name="4-1-GCD" ConfigName="Debug"/>
       <Project Name="4-2-LCM" ConfigName="Debug"/>
       <Project Name="4-3-PrimeTest" ConfigName="Debug"/>
@@ -52,25 +20,12 @@
       <Project Name="4-5-CoinFlip" ConfigName="Debug"/>
       <Project Name="4-6-NumberGuess" ConfigName="Debug"/>
       <Project Name="4-7-ComputerGuessNumber" ConfigName="Debug"/>
+      <Project Name="4-8-GoldbachConjecture" ConfigName="Debug"/>
+      <Project Name="4-9-FibonacciFinder" ConfigName="Debug"/>
+      <Project Name="4-10-DecimalToBinary" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
-      <Project Name="DegreeToRadian" ConfigName="Release"/>
-      <Project Name="TimeEquivalence" ConfigName="Release"/>
-      <Project Name="TimeIncrement" ConfigName="Release"/>
-      <Project Name="QuadraticSolver" ConfigName="Release"/>
-      <Project Name="GradeAverageCalculator" ConfigName="Release"/>
-      <Project Name="PowerTable" ConfigName="Release"/>
-      <Project Name="FactorialTable" ConfigName="Release"/>
-      <Project Name="DigitSum" ConfigName="Release"/>
-      <Project Name="DigitLexical" ConfigName="Release"/>
-      <Project Name="FindLargest" ConfigName="Release"/>
-      <Project Name="Find2Largest" ConfigName="Release"/>
-      <Project Name="TriSort" ConfigName="Release"/>
-      <Project Name="3-8-DigitRecurrence" ConfigName="Release"/>
-      <Project Name="3-9-PalindromeCheck" ConfigName="Release"/>
-      <Project Name="3-10-DecimalToBinary" ConfigName="Release"/>
-      <Project Name="3-11-PiTolerance" ConfigName="Release"/>
       <Project Name="4-1-GCD" ConfigName="Release"/>
       <Project Name="4-2-LCM" ConfigName="Release"/>
       <Project Name="4-3-PrimeTest" ConfigName="Release"/>
@@ -78,6 +33,9 @@
       <Project Name="4-5-CoinFlip" ConfigName="Release"/>
       <Project Name="4-6-NumberGuess" ConfigName="Release"/>
       <Project Name="4-7-ComputerGuessNumber" ConfigName="Release"/>
+      <Project Name="4-8-GoldbachConjecture" ConfigName="Release"/>
+      <Project Name="4-9-FibonacciFinder" ConfigName="Release"/>
+      <Project Name="4-10-DecimalToBinary" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

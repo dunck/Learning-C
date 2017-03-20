@@ -16,16 +16,16 @@ int main()
     scanf("%d", &number);
 
     if(isPrime(number))
-        printf("%d is a prime number.", number);
+        printf("%d is a prime number.\n", number);
     else
-        printf("%d is not a prime number.", number);
+        printf("%d is not a prime number.\n", number);
 
     return 0;
 }
 
 int isPrime(int x)
 {
-    for(int i = 2; i < (int)sqrt(x); i++)
+    for(int i = 2; i <= (int)sqrt(x); i++)
         if(x % i == 0)
             // return 0 (false) if there exists a number that x can divide into
             return 0;
