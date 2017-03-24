@@ -1,41 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="C" Database="" Version="10.0.0">
-  <Project Name="4-1-GCD" Path="4-1-GCD/4-1-GCD.project" Active="No"/>
-  <Project Name="4-2-LCM" Path="4-2-LCM/4-2-LCM.project" Active="No"/>
-  <Project Name="4-3-PrimeTest" Path="4-3-PrimeTest/4-3-PrimeTest.project" Active="No"/>
-  <Project Name="4-4-PerfectNumberTest" Path="4-4-PerfectNumberTest/4-4-PerfectNumberTest.project" Active="No"/>
-  <Project Name="4-5-CoinFlip" Path="4-5-CoinFlip/4-5-CoinFlip.project" Active="No"/>
-  <Project Name="4-6-NumberGuess" Path="4-6-NumberGuess/4-6-NumberGuess.project" Active="No"/>
-  <Project Name="4-7-ComputerGuessNumber" Path="4-7-ComputerGuessNumber/4-7-ComputerGuessNumber.project" Active="No"/>
-  <Project Name="4-8-GoldbachConjecture" Path="4-8-GoldbachConjecture/4-8-GoldbachConjecture.project" Active="No"/>
-  <Project Name="4-9-FibonacciFinder" Path="4-9-FibonacciFinder/4-9-FibonacciFinder.project" Active="No"/>
-  <Project Name="4-10-DecimalToBinary" Path="4-10-DecimalToBinary/4-10-DecimalToBinary.project" Active="Yes"/>
+  <Project Name="5-01-ArraySum" Path="5-01-ArraySum/5-01-ArraySum.project" Active="No"/>
+  <Project Name="5-02-ArrayMinMax" Path="5-02-ArrayMinMax/5-02-ArrayMinMax.project" Active="No"/>
+  <Project Name="5-03-ArrayEvenBeforeOdd" Path="5-03-ArrayEvenBeforeOdd/5-03-ArrayEvenBeforeOdd.project" Active="No"/>
+  <Project Name="5-04-ArrayDictionary" Path="5-04-ArrayDictionary/5-04-ArrayDictionary.project" Active="No"/>
+  <Project Name="5-05-Array4After3" Path="5-05-Array4After3/5-05-Array4After3.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
-      <Project Name="4-1-GCD" ConfigName="Debug"/>
-      <Project Name="4-2-LCM" ConfigName="Debug"/>
-      <Project Name="4-3-PrimeTest" ConfigName="Debug"/>
-      <Project Name="4-4-PerfectNumberTest" ConfigName="Debug"/>
-      <Project Name="4-5-CoinFlip" ConfigName="Debug"/>
-      <Project Name="4-6-NumberGuess" ConfigName="Debug"/>
-      <Project Name="4-7-ComputerGuessNumber" ConfigName="Debug"/>
-      <Project Name="4-8-GoldbachConjecture" ConfigName="Debug"/>
-      <Project Name="4-9-FibonacciFinder" ConfigName="Debug"/>
-      <Project Name="4-10-DecimalToBinary" ConfigName="Debug"/>
+      <Project Name="5-01-ArraySum" ConfigName="Debug"/>
+      <Project Name="5-02-ArrayMinMax" ConfigName="Debug"/>
+      <Project Name="5-03-ArrayEvenBeforeOdd" ConfigName="Debug"/>
+      <Project Name="5-04-ArrayDictionary" ConfigName="Debug"/>
+      <Project Name="5-05-Array4After3" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
-      <Project Name="4-1-GCD" ConfigName="Release"/>
-      <Project Name="4-2-LCM" ConfigName="Release"/>
-      <Project Name="4-3-PrimeTest" ConfigName="Release"/>
-      <Project Name="4-4-PerfectNumberTest" ConfigName="Release"/>
-      <Project Name="4-5-CoinFlip" ConfigName="Release"/>
-      <Project Name="4-6-NumberGuess" ConfigName="Release"/>
-      <Project Name="4-7-ComputerGuessNumber" ConfigName="Release"/>
-      <Project Name="4-8-GoldbachConjecture" ConfigName="Release"/>
-      <Project Name="4-9-FibonacciFinder" ConfigName="Release"/>
-      <Project Name="4-10-DecimalToBinary" ConfigName="Release"/>
+      <Project Name="5-01-ArraySum" ConfigName="Release"/>
+      <Project Name="5-02-ArrayMinMax" ConfigName="Release"/>
+      <Project Name="5-03-ArrayEvenBeforeOdd" ConfigName="Release"/>
+      <Project Name="5-04-ArrayDictionary" ConfigName="Release"/>
+      <Project Name="5-05-Array4After3" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

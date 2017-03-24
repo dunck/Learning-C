@@ -1,6 +1,6 @@
 /*
- * 1806ict: workshop 4 question 9
- * ------------------------------
+ * 1806ict: workshop 4 question 10
+ * -------------------------------
  * duncan kirkland
  * 20/03/2017
  *
@@ -21,13 +21,9 @@ int main()
     return 0;
 }
 
-// to-do:
-// * document
-
 void printBits(int number)
 {
     int count = 1;
-    int rem = 0;
     int bin = 0;
     while(number != 0) {
         count *= 10;
