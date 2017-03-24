@@ -26,7 +26,12 @@ int main()
 
 void printBits(int number)
 {
-    printf("%d\n", number);
-    while(number != 0)
-        printf("%d", (number >>= 1) % 2);
+    int count = 1;
+    int rem = 0;
+    int bin = 0;
+    while(number != 0) {
+        count *= 10;
+        bin += ((number >>= 1) % 2) * count;
+    } 
+    printf("%d", bin);
 }
