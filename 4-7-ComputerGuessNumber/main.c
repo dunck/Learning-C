@@ -33,10 +33,10 @@ int main()
         scanf("%d", &response);
         if(response == 1)
             // if warmer, previous guess = new minimum
-            minBound = guess;
+            maxBound = guess;
         else if(response == 2)
             // if colder, previous guess = new maximum
-            maxBound = guess;
+            minBound = guess;
     } while(response != 0);
     printf("a-ha! so your number was %d!\nthanks for playing with me.\n", guess);
 
