@@ -4,7 +4,13 @@
   <Project Name="5-02-ArrayMinMax" Path="5-02-ArrayMinMax/5-02-ArrayMinMax.project" Active="No"/>
   <Project Name="5-03-ArrayEvenBeforeOdd" Path="5-03-ArrayEvenBeforeOdd/5-03-ArrayEvenBeforeOdd.project" Active="No"/>
   <Project Name="5-04-ArrayDictionary" Path="5-04-ArrayDictionary/5-04-ArrayDictionary.project" Active="No"/>
-  <Project Name="5-05-Array4After3" Path="5-05-Array4After3/5-05-Array4After3.project" Active="Yes"/>
+  <Project Name="5-05-Array4After3" Path="5-05-Array4After3/5-05-Array4After3.project" Active="No"/>
+  <Project Name="5-06-ArrayClumps" Path="5-06-ArrayClumps/5-06-ArrayClumps.project" Active="No"/>
+  <Project Name="5-07-Array0ToRightmostMax" Path="5-07-Array0ToRightmostMax/5-07-Array0ToRightmostMax.project" Active="No"/>
+  <Project Name="5-08-ArrayIndexSums" Path="5-08-ArrayIndexSums/5-08-ArrayIndexSums.project" Active="No"/>
+  <Project Name="5-09-2DMatrixAdd" Path="5-09-2DMatrixAdd/5-09-2DMatrixAdd.project" Active="No"/>
+  <Project Name="6-01-PointerTasks" Path="6-01-PointerTasks/6-01-PointerTasks.project" Active="No"/>
+  <Project Name="6-02-MorePointerTasks" Path="6-02-MorePointerTasks/6-02-MorePointerTasks.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -13,6 +19,12 @@
       <Project Name="5-03-ArrayEvenBeforeOdd" ConfigName="Debug"/>
       <Project Name="5-04-ArrayDictionary" ConfigName="Debug"/>
       <Project Name="5-05-Array4After3" ConfigName="Debug"/>
+      <Project Name="5-06-ArrayClumps" ConfigName="Debug"/>
+      <Project Name="5-07-Array0ToRightmostMax" ConfigName="Debug"/>
+      <Project Name="5-08-ArrayIndexSums" ConfigName="Debug"/>
+      <Project Name="5-09-2DMatrixAdd" ConfigName="Debug"/>
+      <Project Name="6-01-PointerTasks" ConfigName="Debug"/>
+      <Project Name="6-02-MorePointerTasks" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -21,6 +33,12 @@
       <Project Name="5-03-ArrayEvenBeforeOdd" ConfigName="Release"/>
       <Project Name="5-04-ArrayDictionary" ConfigName="Release"/>
       <Project Name="5-05-Array4After3" ConfigName="Release"/>
+      <Project Name="5-06-ArrayClumps" ConfigName="Release"/>
+      <Project Name="5-07-Array0ToRightmostMax" ConfigName="Release"/>
+      <Project Name="5-08-ArrayIndexSums" ConfigName="Release"/>
+      <Project Name="5-09-2DMatrixAdd" ConfigName="Release"/>
+      <Project Name="6-01-PointerTasks" ConfigName="Release"/>
+      <Project Name="6-02-MorePointerTasks" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
